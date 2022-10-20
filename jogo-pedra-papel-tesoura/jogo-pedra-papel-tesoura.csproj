@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>jogo_pedra_papel_tesoura</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="papel.PNG" />
+    <None Remove="pedra.PNG" />
+    <None Remove="tesoura.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="papel.PNG" />
+    <Resource Include="pedra.PNG" />
+    <Resource Include="tesoura.PNG" />
+  </ItemGroup>
+
+</Project>
